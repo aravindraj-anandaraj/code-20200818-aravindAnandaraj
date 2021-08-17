@@ -8,13 +8,13 @@ Json data which needs to be processed is stored and fetched from the file "jsonD
 
 {} Routes are handled using express.js
 
-=> A GET request made to route : "http://localhost:<portNumber>/calculatedBmi" 
-will respond with all the modified objects with calculatedBmi key and value pairs.
-=> A GET request made to route : "http://localhost:<portNumber>/overweightCount" 
-will respond with the count of total number of people who fall under "Overweight" based on bmi categorization.
+=> A GET request made to route : "http://localhost:<portNumber>/calculatedBmi" will respond with all the modified objects with calculatedBmi key and value pairs.
+
+=> A GET request made to route : "http://localhost:<portNumber>/overweightCount" will respond with the count of total number of people who fall under "Overweight" based on bmi categorization.
 
 
 {} Basic testing is done with the help of mocha and chai.
 
 => Run "npm run test" inorder to initialize the testing process.
+  
 => Total 6 test cases are written for "overweightCount" and "bmiCaluculation" (each having 3 test case).
